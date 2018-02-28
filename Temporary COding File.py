@@ -1,8 +1,14 @@
-def gcd(m, n):
-    for i in range(min(m,n) + 1, 1, -1):
-        if m % i == 0  and n % i == 0 :
-            return i
-    else:
-        return 1
+# Euclid's algorithm
 
-print("GCD of 10 and 20 is",gcd(10,20))
+
+def gcd(m, n):
+    if m < n:
+        m, n = n, m
+    if m % n == 0:
+        return n
+    else:
+        diff = m - n
+        return gcd(n, diff)
+
+
+print("GCD of 10 and 20 is",gcd(10, 20))

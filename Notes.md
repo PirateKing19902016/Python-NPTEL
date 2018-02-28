@@ -1,1 +1,1 @@
-[1. Swapping of Variables](Notes\1.%20Swapping%20of%20Variables.ipynb)
+[1. Swapping of Variables](Notes/1.%20Swapping%20of%20Variables.ipynb)
